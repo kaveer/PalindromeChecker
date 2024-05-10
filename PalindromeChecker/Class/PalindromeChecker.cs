@@ -11,7 +11,16 @@ namespace PalindromeChecker.Class
     {
         public bool IsPalindrome(string text)
         {
-            throw new NotImplementedException();
+            var lowerCase = text.ToLower();
+            var trimSpace = lowerCase.Replace(" ", string.Empty);
+
+            var textArray = trimSpace.ToCharArray();
+            var reverse = textArray.Reverse();
+
+            if (trimSpace.Equals(reverse))
+                return true;
+
+            return false;
         }
     }
 }

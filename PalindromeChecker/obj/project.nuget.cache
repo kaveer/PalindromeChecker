@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZmNrrOEh/4jwzUVM4db+OFzD6Vcyzf3kTkUtezPr6W06BI0fRCy2HCawbUwubpMfladGNGR2qCt519g5JJdGsw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sd377186\\source\\repos\\CSharpe\\PalindromeChecker\\PalindromeChecker\\PalindromeChecker.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://proget/nuget/SDWorxNuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
